@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using PrincipePaz.Diesmo.Data.Mapping;
 using PrincipePaz.Diesmos.Model;
+using System.Reflection.Emit;
 
 namespace PrincipePaz.Diesmo.Data
 {
@@ -20,6 +22,8 @@ namespace PrincipePaz.Diesmo.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.ApplyConfiguration(new DistritoMap());
+            builder.ApplyConfiguration(new ZonaMap());
             base.OnModelCreating(builder);
         }
     }
