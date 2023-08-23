@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using PrincipePaz.Diesmo.Data.Mapping;
 using PrincipePaz.Diesmos.Model;
@@ -6,7 +7,7 @@ using System.Reflection.Emit;
 
 namespace PrincipePaz.Diesmo.Data
 {
-    public class PrincipePazConcepto : DbContext
+    public class PrincipePazConcepto : IdentityDbContext
     {
         public PrincipePazConcepto(DbContextOptions<PrincipePazConcepto> options) : base(options)
         {   

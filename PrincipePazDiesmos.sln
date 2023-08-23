@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrincipePaz.Diesmos", "PrincipePaz.Diesmos\PrincipePaz.Diesmos.csproj", "{BEA7C240-2337-4739-979A-1723625AA9B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrincipePaz.Diesmos", "PrincipePaz.Diesmos\PrincipePaz.Diesmos.csproj", "{BEA7C240-2337-4739-979A-1723625AA9B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrincipePaz.Diesmo.Data", "PrincipePaz.Diesmo.Data\PrincipePaz.Diesmo.Data.csproj", "{9765AD34-535C-482F-B0F2-6C660DF9C3B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrincipePaz.Diesmo.Data", "PrincipePaz.Diesmo.Data\PrincipePaz.Diesmo.Data.csproj", "{9765AD34-535C-482F-B0F2-6C660DF9C3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrincipePaz.Diesmos.Web", "PrincipePaz.Diesmos.Web\PrincipePaz.Diesmos.Web.csproj", "{FC4CEE91-E22E-4F1E-BA0D-C600CD01C6DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9765AD34-535C-482F-B0F2-6C660DF9C3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9765AD34-535C-482F-B0F2-6C660DF9C3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9765AD34-535C-482F-B0F2-6C660DF9C3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4CEE91-E22E-4F1E-BA0D-C600CD01C6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4CEE91-E22E-4F1E-BA0D-C600CD01C6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4CEE91-E22E-4F1E-BA0D-C600CD01C6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4CEE91-E22E-4F1E-BA0D-C600CD01C6DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

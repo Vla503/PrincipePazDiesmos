@@ -10,6 +10,7 @@ namespace PrincipePaz.Diesmos.Model
     {
         public int IdIngreso { get; set; }
         public int IdDiesmo { get; set; }
+        public RegistroDiesmos RegistroDiesmo { get; set; }
         public decimal Monto { get; set; }
         public Concepto Concepto { get; set; }
     }

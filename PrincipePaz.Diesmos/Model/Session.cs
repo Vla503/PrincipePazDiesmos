@@ -8,7 +8,17 @@ namespace PrincipePaz.Diesmos.Model
 {
     public class Session
     {
+        public Session(Zona zona, string direccionSession)
+        {
+            Zona = zona;
+            DireccionSesion = direccionSession;
+        }
         public int IdSession { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public int IdZona { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -24,7 +34,7 @@ namespace PrincipePaz.Diesmos.Model
         /// <summary>
         /// cada session tiene una lista de diesmos
         /// </summary>
-        public List<RegistroDiesmos> Diesmos { get; set; }
+        public List<RegistroDiesmos>? Diesmos { get; set; }
         /// <summary>
         /// 
         /// </summary>

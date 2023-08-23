@@ -14,6 +14,6 @@ namespace PrincipePaz.Diesmos.Model
         public Pastor Pastor { get; set; }
         public DateTimeOffset FechaIngreso { get; set; }
         public List<Ingresos> Ingresos { get; set; }
-        public decimal TotalIngreso { get; set; }
+        public decimal? TotalIngreso { get; set; }
     }
 }
