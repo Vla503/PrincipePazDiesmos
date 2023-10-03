@@ -6,14 +6,6 @@ using System.Threading.Tasks;
 
 namespace PrincipePaz.Diesmos.Model
 {
-    public enum Municipio
-    {
-
-    }
-    public enum Departamento
-    {
-
-    }
     public enum EstadoSession
     {
         Abierto = 1,

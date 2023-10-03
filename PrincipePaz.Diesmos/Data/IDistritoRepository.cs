@@ -22,6 +22,7 @@ namespace PrincipePaz.Diesmos.Data
         /// </summary>
         /// <param name="idZona"></param>
         /// <returns></returns>
-        Task<Distrito> GetDistritoByIdZona(string idZona);
+        Task<List<Distrito>> GetDistritoByIdZona(string idZona);
+
     }
 }

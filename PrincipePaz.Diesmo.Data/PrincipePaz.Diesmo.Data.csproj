@@ -14,4 +14,8 @@
     <ProjectReference Include="..\PrincipePaz.Diesmos\PrincipePaz.Diesmos.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repo\" />
+  </ItemGroup>
+
 </Project>

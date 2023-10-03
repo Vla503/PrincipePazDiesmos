@@ -19,7 +19,9 @@ namespace PrincipePaz.Diesmos.Model
         public string NombreIglesia { get; set; }
         public string Direccion { get; set; }
         public string Telefono { get; set; }
+        public int IdMunicipio { get; set; }
         public Municipio Municipio { get; set; }
+        public int IdDepartamento { get; set; }
         public Departamento Departamento { get; set; }
         public Distrito Distrito { get; set; }
         public int IdDistrito { get; set; }
